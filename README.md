@@ -6,6 +6,8 @@ Tool to help lazy cartoonists to convert photo of a hand drawing into an SVG/PDF
 
 ## Installation
 
+### Installer
+
 ```shell
 $ ./install.sh
 ```
@@ -15,10 +17,20 @@ $ ./install.sh
 
 > **Note:** Feel free to contribute installation of dependencies with your favorite package manager if the [`install.sh`](install.sh) script doesn't work for you.
 
+### Docker image
+
+No installation is required in order to use cartoonist inside a Docker container!
+
 ## Usage
 
 ```shell
 $ ./cartoonist.sh photo-of-my-drawing.jpg
+```
+
+### Using a Docker image
+
+```shell
+docker run -v $PWD:/cartoons --rm gonzalo-bulnes/cartoonist /cartoons/photo-of-my-drawing.jpg
 ```
 
 ### Produces
