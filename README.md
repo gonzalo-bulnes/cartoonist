@@ -1,5 +1,7 @@
 # cartoonist
 
+[![Docker image](https://img.shields.io/badge/docker-gonzalobulnes%2Fcartoonist-blue.svg)](https://hub.docker.com/r/gonzalobulnes/cartoonist)
+
 Tool to help lazy cartoonists to convert photo of a hand drawing into an SVG/PDF vector file.
 
 ![cartoonist](./cartoonist.png)
